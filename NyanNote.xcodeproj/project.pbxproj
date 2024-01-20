@@ -16,6 +16,8 @@
 		CE9DA2602B5B8EBF003DC918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9DA25E2B5B8EBF003DC918 /* LaunchScreen.storyboard */; };
 		CE9DA2682B5B8F04003DC918 /* PianoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2672B5B8F04003DC918 /* PianoViewController.swift */; };
 		CE9DA26A2B5B8F1C003DC918 /* PianoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9DA2692B5B8F1C003DC918 /* PianoViewController.storyboard */; };
+		CE9DA2702B5B9F08003DC918 /* Meowsic  in Resources */ = {isa = PBXBuildFile; fileRef = CE9DA26F2B5B9F08003DC918 /* Meowsic  */; };
+		CE9DA2722B5BA014003DC918 /* Meowsic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2712B5BA014003DC918 /* Meowsic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		CE9DA2612B5B8EBF003DC918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE9DA2672B5B8F04003DC918 /* PianoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoViewController.swift; sourceTree = "<group>"; };
 		CE9DA2692B5B8F1C003DC918 /* PianoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PianoViewController.storyboard; sourceTree = "<group>"; };
+		CE9DA26F2B5B9F08003DC918 /* Meowsic  */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Meowsic "; sourceTree = "<group>"; };
+		CE9DA2712B5BA014003DC918 /* Meowsic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meowsic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +50,6 @@
 		CE9DA2442B5B8EBD003DC918 = {
 			isa = PBXGroup;
 			children = (
-				CE9DA2672B5B8F04003DC918 /* PianoViewController.swift */,
-				CE9DA2692B5B8F1C003DC918 /* PianoViewController.storyboard */,
 				CE9DA24F2B5B8EBD003DC918 /* NyanNote */,
 				CE9DA24E2B5B8EBD003DC918 /* Products */,
 			);
@@ -64,10 +66,14 @@
 		CE9DA24F2B5B8EBD003DC918 /* NyanNote */ = {
 			isa = PBXGroup;
 			children = (
+				CE9DA2692B5B8F1C003DC918 /* PianoViewController.storyboard */,
+				CE9DA2672B5B8F04003DC918 /* PianoViewController.swift */,
+				CE9DA2712B5BA014003DC918 /* Meowsic.swift */,
 				CE9DA2502B5B8EBD003DC918 /* AppDelegate.swift */,
 				CE9DA2522B5B8EBD003DC918 /* SceneDelegate.swift */,
 				CE9DA2542B5B8EBD003DC918 /* ViewController.swift */,
 				CE9DA2562B5B8EBD003DC918 /* Main.storyboard */,
+				CE9DA26F2B5B9F08003DC918 /* Meowsic  */,
 				CE9DA25C2B5B8EBF003DC918 /* Assets.xcassets */,
 				CE9DA25E2B5B8EBF003DC918 /* LaunchScreen.storyboard */,
 				CE9DA2612B5B8EBF003DC918 /* Info.plist */,
@@ -138,6 +144,7 @@
 				CE9DA25D2B5B8EBF003DC918 /* Assets.xcassets in Resources */,
 				CE9DA2582B5B8EBD003DC918 /* Main.storyboard in Resources */,
 				CE9DA26A2B5B8F1C003DC918 /* PianoViewController.storyboard in Resources */,
+				CE9DA2702B5B9F08003DC918 /* Meowsic  in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9DA2552B5B8EBD003DC918 /* ViewController.swift in Sources */,
+				CE9DA2722B5BA014003DC918 /* Meowsic.swift in Sources */,
 				CE9DA2682B5B8F04003DC918 /* PianoViewController.swift in Sources */,
 				CE9DA25B2B5B8EBD003DC918 /* NyanNote.xcdatamodeld in Sources */,
 				CE9DA2512B5B8EBD003DC918 /* AppDelegate.swift in Sources */,
@@ -310,8 +318,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,9 +327,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = IgarashiAi.NyanNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,8 +350,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,9 +359,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = IgarashiAi.NyanNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
