@@ -8,11 +8,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Piano Viewcontroller-->
+        <!--Piano View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="PianoViewcontroller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="PianoViewcontroller" customModule="NyanNote" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" customClass="PianoViewController" customModule="NyanNote" customModuleProvider="target">
+                <viewController storyboardIdentifier="PianoViewcontroller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="PianoViewController" customModule="NyanNote" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" customClass="PianoViewcontroller" customModule="NyanNote" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -30,7 +30,7 @@
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="keyOneTapped:" destination="5EZ-qb-Rvc" eventType="touchUpInside" id="FZa-Jn-ebq"/>
+                                                    <action selector="keyOneTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="iNF-tY-MeM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bd-fq-hfl">
@@ -41,7 +41,7 @@
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="keyTwoTapped:" destination="5EZ-qb-Rvc" eventType="touchUpInside" id="tQ4-Ca-Ipb"/>
+                                                    <action selector="keyTwoTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eTM-VP-WC4"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1g-mD-xpa">
@@ -52,7 +52,7 @@
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="keyThreeTapped:" destination="5EZ-qb-Rvc" eventType="touchUpInside" id="Mpi-OB-W8E"/>
+                                                    <action selector="ketThreeTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="egg-fy-M2h"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfO-FQ-jJH">
@@ -63,7 +63,7 @@
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="keyFourTapped:" destination="5EZ-qb-Rvc" eventType="touchUpInside" id="cNZ-4d-WFS"/>
+                                                    <action selector="keyFourTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ywb-S5-uq5"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAW-dB-eDO">
@@ -74,7 +74,7 @@
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="keyFiveTapped:" destination="5EZ-qb-Rvc" eventType="touchUpInside" id="4hG-as-4yS"/>
+                                                    <action selector="keyFiveTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="8sG-Oa-L4N"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0H-LM-WR7">
@@ -85,7 +85,7 @@
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="keySixTapped:" destination="5EZ-qb-Rvc" eventType="touchUpInside" id="46T-dD-JQf"/>
+                                                    <action selector="keySixTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="oxn-YS-MaY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOo-pO-ahA">
@@ -96,7 +96,7 @@
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="keySevenTapped:" destination="5EZ-qb-Rvc" eventType="touchUpInside" id="oIp-Pq-VkG"/>
+                                                    <action selector="keySevenTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="soq-n3-5Md"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -129,15 +129,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="66F-4o-6y1" secondAttribute="trailing" constant="-39" id="o2M-C0-q7q"/>
                             <constraint firstItem="66F-4o-6y1" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="za1-gW-a3m"/>
                         </constraints>
-                        <connections>
-                            <outlet property="keyFive" destination="lAW-dB-eDO" id="h7S-8b-eYi"/>
-                            <outlet property="keyFour" destination="mfO-FQ-jJH" id="M1O-fU-3D6"/>
-                            <outlet property="keyOne" destination="Bkh-te-hvD" id="Q5R-gu-Qsw"/>
-                            <outlet property="keySeven" destination="dOo-pO-ahA" id="0Xx-8u-ATw"/>
-                            <outlet property="keySix" destination="t0H-LM-WR7" id="qAx-yV-MwS"/>
-                            <outlet property="keyThree" destination="d1g-mD-xpa" id="j3t-qn-knh"/>
-                            <outlet property="keyTwo" destination="3Bd-fq-hfl" id="QbZ-3E-ikZ"/>
-                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
