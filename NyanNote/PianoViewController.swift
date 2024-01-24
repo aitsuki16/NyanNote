@@ -48,4 +48,10 @@ class PianoViewController: UIViewController {
     @IBAction func keySevenTapped(_ sender: UIButton) {
         meowsicPlayer.playSound(fileName: "m7")
     }
+    
+    @IBAction func keyEightTapped(_ sender: UIButton) {
+        meowsicPlayer.playSound(fileName: "m8")
+
+    }
+    
 }
