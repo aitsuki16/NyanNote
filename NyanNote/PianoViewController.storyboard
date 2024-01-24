@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66F-4o-6y1">
-                                <rect key="frame" x="79" y="21" width="733" height="351"/>
+                                <rect key="frame" x="79" y="21" width="694" height="351"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kJU-yz-Vvn">
-                                        <rect key="frame" x="76" y="93" width="600" height="250"/>
+                                        <rect key="frame" x="46" y="93" width="600" height="250"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bkh-te-hvD">
                                                 <rect key="frame" x="0.0" y="0.0" width="70.666666666666671" height="250"/>
@@ -116,9 +116,8 @@
                                             <constraint firstAttribute="width" constant="600" id="ttV-cY-ckS"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVc-7z-Vxn">
-                                        <rect key="frame" x="599" y="20" width="79" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVc-7z-Vxn">
+                                        <rect key="frame" x="569.33333333333337" y="29.000000000000004" width="78.666666666666629" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" image="pawprint.circle" catalog="system" title="Rec">
                                             <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -127,8 +126,10 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.76859849690000004" green="0.64635096609999998" blue="0.69539615870000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="cVc-7z-Vxn" secondAttribute="trailing" constant="46" id="2We-dg-I3y"/>
                                     <constraint firstItem="kJU-yz-Vvn" firstAttribute="bottom" secondItem="66F-4o-6y1" secondAttribute="bottomMargin" id="9Qx-5Y-ZaY"/>
-                                    <constraint firstItem="kJU-yz-Vvn" firstAttribute="leading" secondItem="66F-4o-6y1" secondAttribute="leading" constant="76" id="A59-ne-CKm"/>
+                                    <constraint firstItem="kJU-yz-Vvn" firstAttribute="leading" secondItem="66F-4o-6y1" secondAttribute="leading" constant="46" id="A59-ne-CKm"/>
+                                    <constraint firstItem="cVc-7z-Vxn" firstAttribute="top" secondItem="66F-4o-6y1" secondAttribute="top" constant="29" id="aMd-js-U3Y"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -137,7 +138,7 @@
                         <constraints>
                             <constraint firstItem="66F-4o-6y1" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="CjC-ug-ozh"/>
                             <constraint firstItem="66F-4o-6y1" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="U8K-Bq-1Ld"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="66F-4o-6y1" secondAttribute="trailing" constant="-39" id="o2M-C0-q7q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="66F-4o-6y1" secondAttribute="trailing" id="o2M-C0-q7q"/>
                             <constraint firstItem="66F-4o-6y1" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="za1-gW-a3m"/>
                         </constraints>
                     </view>
