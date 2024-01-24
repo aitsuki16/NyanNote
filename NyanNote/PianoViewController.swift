@@ -23,29 +23,29 @@ class PianoViewController: UIViewController {
     }
     
     @IBAction func keyOneTapped(_ sender: UIButton) {
-        meowsicPlayer.playSound(fileName: "archivo1")
+        meowsicPlayer.playSound(fileName: "1")
     }
     
     @IBAction func keyTwoTapped(_ sender: UIButton) {
-        meowsicPlayer.playSound(fileName: "archivo2")
+        meowsicPlayer.playSound(fileName: "2")
     }
     
     @IBAction func ketThreeTapped(_ sender: UIButton) {
-        meowsicPlayer.playSound(fileName: "archivo3")
+        meowsicPlayer.playSound(fileName: "3")
     }
     @IBAction func keyFourTapped(_ sender: UIButton) {
-        meowsicPlayer.playSound(fileName: "archivo4")
+        meowsicPlayer.playSound(fileName: "4")
     }
     
     @IBAction func keyFiveTapped(_ sender: UIButton) {
-        meowsicPlayer.playSound(fileName: "archivo5")
+        meowsicPlayer.playSound(fileName: "5")
     }
     
     @IBAction func keySixTapped(_ sender: UIButton) {
-        meowsicPlayer.playSound(fileName: "archivo6")
+        meowsicPlayer.playSound(fileName: "6")
     }
     
     @IBAction func keySevenTapped(_ sender: UIButton) {
-        meowsicPlayer.playSound(fileName: "archivo7")
+        meowsicPlayer.playSound(fileName: "7")
     }
 }

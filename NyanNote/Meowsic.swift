@@ -14,9 +14,14 @@ class Meowsic {
     var audioPlayer: AVAudioPlayer?
 
     func playSound(fileName: String) {
-        guard let url = Bundle.main.url(forResource: fileName, withExtension: "mp3") else {
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: "wav") else {
+        
+            print("File not found for \(fileName).mp3")
+
             return
         }
+        print("Playing sound from URL: \(url)")
+
 
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url)
