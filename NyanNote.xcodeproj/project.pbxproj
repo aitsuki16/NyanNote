@@ -14,6 +14,15 @@
 		CE8D38E62B5D17ED004709F8 /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D38E52B5D17ED004709F8 /* 5.wav */; };
 		CE8D38E82B5D17F1004709F8 /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D38E72B5D17F1004709F8 /* 6.wav */; };
 		CE8D38EA2B5D17F7004709F8 /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D38E92B5D17F7004709F8 /* 7.wav */; };
+		CE8D390E2B60A4B5004709F8 /* m6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D39052B60A4B5004709F8 /* m6.wav */; };
+		CE8D390F2B60A4B5004709F8 /* m3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D39062B60A4B5004709F8 /* m3.wav */; };
+		CE8D39102B60A4B5004709F8 /* m1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D39072B60A4B5004709F8 /* m1.wav */; };
+		CE8D39112B60A4B5004709F8 /* m9.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D39082B60A4B5004709F8 /* m9.wav */; };
+		CE8D39122B60A4B5004709F8 /* m7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D39092B60A4B5004709F8 /* m7.wav */; };
+		CE8D39132B60A4B5004709F8 /* m8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390A2B60A4B5004709F8 /* m8.wav */; };
+		CE8D39142B60A4B5004709F8 /* m5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390B2B60A4B5004709F8 /* m5.wav */; };
+		CE8D39152B60A4B5004709F8 /* m4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390C2B60A4B5004709F8 /* m4.wav */; };
+		CE8D39162B60A4B5004709F8 /* m2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390D2B60A4B5004709F8 /* m2.wav */; };
 		CE9DA2512B5B8EBD003DC918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2502B5B8EBD003DC918 /* AppDelegate.swift */; };
 		CE9DA2532B5B8EBD003DC918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2522B5B8EBD003DC918 /* SceneDelegate.swift */; };
 		CE9DA2552B5B8EBD003DC918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2542B5B8EBD003DC918 /* ViewController.swift */; };
@@ -34,6 +43,15 @@
 		CE8D38E52B5D17ED004709F8 /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
 		CE8D38E72B5D17F1004709F8 /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
 		CE8D38E92B5D17F7004709F8 /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
+		CE8D39052B60A4B5004709F8 /* m6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m6.wav; sourceTree = "<group>"; };
+		CE8D39062B60A4B5004709F8 /* m3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m3.wav; sourceTree = "<group>"; };
+		CE8D39072B60A4B5004709F8 /* m1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m1.wav; sourceTree = "<group>"; };
+		CE8D39082B60A4B5004709F8 /* m9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m9.wav; sourceTree = "<group>"; };
+		CE8D39092B60A4B5004709F8 /* m7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m7.wav; sourceTree = "<group>"; };
+		CE8D390A2B60A4B5004709F8 /* m8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m8.wav; sourceTree = "<group>"; };
+		CE8D390B2B60A4B5004709F8 /* m5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m5.wav; sourceTree = "<group>"; };
+		CE8D390C2B60A4B5004709F8 /* m4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m4.wav; sourceTree = "<group>"; };
+		CE8D390D2B60A4B5004709F8 /* m2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m2.wav; sourceTree = "<group>"; };
 		CE9DA24D2B5B8EBD003DC918 /* NyanNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyanNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9DA2502B5B8EBD003DC918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9DA2522B5B8EBD003DC918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +109,15 @@
 				CE8D38E52B5D17ED004709F8 /* 5.wav */,
 				CE8D38E72B5D17F1004709F8 /* 6.wav */,
 				CE8D38E92B5D17F7004709F8 /* 7.wav */,
+				CE8D39072B60A4B5004709F8 /* m1.wav */,
+				CE8D390D2B60A4B5004709F8 /* m2.wav */,
+				CE8D39062B60A4B5004709F8 /* m3.wav */,
+				CE8D390C2B60A4B5004709F8 /* m4.wav */,
+				CE8D390B2B60A4B5004709F8 /* m5.wav */,
+				CE8D39052B60A4B5004709F8 /* m6.wav */,
+				CE8D39092B60A4B5004709F8 /* m7.wav */,
+				CE8D390A2B60A4B5004709F8 /* m8.wav */,
+				CE8D39082B60A4B5004709F8 /* m9.wav */,
 				CE9DA2562B5B8EBD003DC918 /* Main.storyboard */,
 				CE9DA25C2B5B8EBF003DC918 /* Assets.xcassets */,
 				CE9DA25E2B5B8EBF003DC918 /* LaunchScreen.storyboard */,
@@ -158,15 +185,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8D39112B60A4B5004709F8 /* m9.wav in Resources */,
+				CE8D390F2B60A4B5004709F8 /* m3.wav in Resources */,
+				CE8D39152B60A4B5004709F8 /* m4.wav in Resources */,
 				CE8D38EA2B5D17F7004709F8 /* 7.wav in Resources */,
 				CE8D38E62B5D17ED004709F8 /* 5.wav in Resources */,
+				CE8D39162B60A4B5004709F8 /* m2.wav in Resources */,
+				CE8D39142B60A4B5004709F8 /* m5.wav in Resources */,
 				CE8D38E22B5D17E1004709F8 /* 3.wav in Resources */,
 				CE8D38DE2B5D1780004709F8 /* 1.wav in Resources */,
+				CE8D39122B60A4B5004709F8 /* m7.wav in Resources */,
 				CE9DA2602B5B8EBF003DC918 /* LaunchScreen.storyboard in Resources */,
+				CE8D39102B60A4B5004709F8 /* m1.wav in Resources */,
 				CE9DA25D2B5B8EBF003DC918 /* Assets.xcassets in Resources */,
 				CE8D38E82B5D17F1004709F8 /* 6.wav in Resources */,
 				CE8D38E02B5D17DC004709F8 /* 2.wav in Resources */,
 				CE8D38E42B5D17E6004709F8 /* 4.wav in Resources */,
+				CE8D390E2B60A4B5004709F8 /* m6.wav in Resources */,
+				CE8D39132B60A4B5004709F8 /* m8.wav in Resources */,
 				CE9DA2582B5B8EBD003DC918 /* Main.storyboard in Resources */,
 				CE9DA26A2B5B8F1C003DC918 /* PianoViewController.storyboard in Resources */,
 			);
