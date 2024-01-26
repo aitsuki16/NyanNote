@@ -54,4 +54,34 @@ class PianoViewController: UIViewController {
 
     }
     
+    @IBAction func blackKeyOne(_ sender: UIButton) {
+        meowsicPlayer.playSound(fileName: "m9")
+
+    }
+    
+    @IBAction func blackKeyTwo(_ sender: UIButton) {
+        meowsicPlayer.playSound(fileName: "1")
+
+    }
+    @IBAction func blackKeyThree(_ sender: UIButton) {
+        meowsicPlayer.playSound(fileName: "2")
+
+    }
+    
+    @IBAction func blackKeyFour(_ sender: UIButton) {
+        meowsicPlayer.playSound(fileName: "3")
+
+    }
+    @IBAction func blackKeyFive(_ sender: UIButton) {
+        meowsicPlayer.playSound(fileName: "4")
+
+    }
+    
+    @IBAction func blackKeySix(_ sender: UIButton) {
+        meowsicPlayer.playSound(fileName: "5")
+
+    }
+    
+    
+    
 }

@@ -19,13 +19,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66F-4o-6y1">
                                 <rect key="frame" x="79" y="21" width="694" height="351"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kJU-yz-Vvn">
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="kJU-yz-Vvn">
                                         <rect key="frame" x="46" y="93" width="600" height="250"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bkh-te-hvD">
-                                                <rect key="frame" x="0.0" y="0.0" width="70.666666666666671" height="250"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="250"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" image="cat" catalog="system" title="Nyan">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -34,9 +34,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bd-fq-hfl">
-                                                <rect key="frame" x="75.666666666666657" y="0.0" width="70.666666666666657" height="250"/>
+                                                <rect key="frame" x="75.333333333333343" y="0.0" width="73.333333333333343" height="250"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" image="cat" catalog="system" title="Nyan">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -45,9 +45,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1g-mD-xpa">
-                                                <rect key="frame" x="151.33333333333331" y="0.0" width="70.666666666666686" height="250"/>
+                                                <rect key="frame" x="150.66666666666669" y="0.0" width="73" height="250"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" image="cat.fill" catalog="system" title="Nyan">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -56,9 +56,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfO-FQ-jJH">
-                                                <rect key="frame" x="226.99999999999997" y="0.0" width="70.666666666666657" height="250"/>
+                                                <rect key="frame" x="225.66666666666671" y="0.0" width="73.333333333333343" height="250"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" image="cat.fill" catalog="system" title="Nyan">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -67,9 +67,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAW-dB-eDO">
-                                                <rect key="frame" x="302.66666666666669" y="0.0" width="70.333333333333314" height="250"/>
+                                                <rect key="frame" x="301" y="0.0" width="73.333333333333314" height="250"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" image="cat" catalog="system" title="Nyan">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -78,9 +78,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0H-LM-WR7">
-                                                <rect key="frame" x="378" y="0.0" width="70.666666666666686" height="250"/>
+                                                <rect key="frame" x="376.33333333333331" y="0.0" width="73.333333333333314" height="250"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" image="cat" catalog="system" title="Nyan">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -89,9 +89,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOo-pO-ahA">
-                                                <rect key="frame" x="453.66666666666663" y="0.0" width="70.666666666666629" height="250"/>
+                                                <rect key="frame" x="451.66666666666663" y="0.0" width="73" height="250"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" image="cat.fill" catalog="system" title="Nyan">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -100,9 +100,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyp-SG-ldq">
-                                                <rect key="frame" x="529.33333333333337" y="0.0" width="70.666666666666629" height="250"/>
+                                                <rect key="frame" x="526.66666666666663" y="0.0" width="73.333333333333371" height="250"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" image="cat" catalog="system" title="Nyan">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -116,6 +116,37 @@
                                             <constraint firstAttribute="width" constant="600" id="ttV-cY-ckS"/>
                                         </constraints>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="IvS-qQ-wY7">
+                                        <rect key="frame" x="107" y="93" width="108" height="160"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ake-ZP-Nq7">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="160"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30" id="N53-wl-8Rf"/>
+                                                    <constraint firstAttribute="height" constant="160" id="QuK-8C-XFn"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled"/>
+                                                <connections>
+                                                    <action selector="blackKeyOne:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="UOf-tN-DS6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lw3-J7-K7E">
+                                                <rect key="frame" x="78" y="0.0" width="30" height="160"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="160" id="0JX-5B-fYp"/>
+                                                    <constraint firstAttribute="width" constant="30" id="qLf-Wb-8Wc"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled"/>
+                                                <connections>
+                                                    <action selector="blackKeyTwo:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="PUQ-4c-KfO"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVc-7z-Vxn">
                                         <rect key="frame" x="569.33333333333337" y="29.000000000000004" width="78.666666666666629" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
@@ -123,20 +154,88 @@
                                             <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="KTf-yH-NgC">
+                                        <rect key="frame" x="327" y="93" width="182" height="160"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sax-aL-jWj">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="160"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="160" id="DiS-W6-ed7"/>
+                                                    <constraint firstAttribute="width" constant="30" id="z5U-fo-AxD"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled"/>
+                                                <connections>
+                                                    <action selector="blackKeyThree:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="nkO-tr-4iB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAp-gB-cEd">
+                                                <rect key="frame" x="76" y="0.0" width="30" height="160"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="160" id="0u5-uG-MJE"/>
+                                                    <constraint firstAttribute="width" constant="30" id="nFe-7J-Rx5"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled"/>
+                                                <connections>
+                                                    <action selector="blackKeyFour:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="4Jq-2K-cHc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuS-km-leq">
+                                                <rect key="frame" x="152" y="0.0" width="30" height="160"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="160" id="f26-4b-ZzB"/>
+                                                    <constraint firstAttribute="width" constant="30" id="r4P-rN-qhS"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled"/>
+                                                <connections>
+                                                    <action selector="blackKeyFive:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="bjX-kN-Mvz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Idl-bC-ENf">
+                                        <rect key="frame" x="616" y="93" width="30" height="160"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHw-Cm-bor">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="160"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30" id="FHw-cX-nEZ"/>
+                                                    <constraint firstAttribute="height" constant="160" id="NyW-eI-vWq"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled"/>
+                                                <connections>
+                                                    <action selector="blackKeySix:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="2Yt-LU-SU8"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.76859849690000004" green="0.64635096609999998" blue="0.69539615870000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="cVc-7z-Vxn" secondAttribute="trailing" constant="46" id="2We-dg-I3y"/>
                                     <constraint firstItem="kJU-yz-Vvn" firstAttribute="bottom" secondItem="66F-4o-6y1" secondAttribute="bottomMargin" id="9Qx-5Y-ZaY"/>
                                     <constraint firstItem="kJU-yz-Vvn" firstAttribute="leading" secondItem="66F-4o-6y1" secondAttribute="leading" constant="46" id="A59-ne-CKm"/>
+                                    <constraint firstItem="Idl-bC-ENf" firstAttribute="top" secondItem="kJU-yz-Vvn" secondAttribute="top" id="FP1-3v-pkS"/>
+                                    <constraint firstItem="KTf-yH-NgC" firstAttribute="top" secondItem="IvS-qQ-wY7" secondAttribute="top" id="LAv-S6-je3"/>
+                                    <constraint firstItem="KTf-yH-NgC" firstAttribute="leading" secondItem="IvS-qQ-wY7" secondAttribute="trailing" constant="112" id="Ma3-GW-J14"/>
                                     <constraint firstItem="cVc-7z-Vxn" firstAttribute="top" secondItem="66F-4o-6y1" secondAttribute="top" constant="29" id="aMd-js-U3Y"/>
+                                    <constraint firstItem="IvS-qQ-wY7" firstAttribute="top" secondItem="kJU-yz-Vvn" secondAttribute="top" id="baM-VB-uHu"/>
+                                    <constraint firstItem="IvS-qQ-wY7" firstAttribute="leading" secondItem="kJU-yz-Vvn" secondAttribute="leading" constant="61" id="exU-qD-ljn"/>
+                                    <constraint firstItem="Idl-bC-ENf" firstAttribute="leading" secondItem="KTf-yH-NgC" secondAttribute="trailing" constant="107" id="oyd-eB-XDG"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="66F-4o-6y1" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="CjC-ug-ozh"/>
+                            <constraint firstItem="66F-4o-6y1" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="3qa-p3-tS4"/>
                             <constraint firstItem="66F-4o-6y1" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="U8K-Bq-1Ld"/>
                             <constraint firstAttribute="trailingMargin" secondItem="66F-4o-6y1" secondAttribute="trailing" id="o2M-C0-q7q"/>
                             <constraint firstItem="66F-4o-6y1" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="za1-gW-a3m"/>
@@ -149,6 +248,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cat" catalog="system" width="128" height="102"/>
+        <image name="cat.fill" catalog="system" width="128" height="102"/>
         <image name="pawprint.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
