@@ -23,6 +23,8 @@
 		CE8D39142B60A4B5004709F8 /* m5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390B2B60A4B5004709F8 /* m5.wav */; };
 		CE8D39152B60A4B5004709F8 /* m4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390C2B60A4B5004709F8 /* m4.wav */; };
 		CE8D39162B60A4B5004709F8 /* m2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390D2B60A4B5004709F8 /* m2.wav */; };
+		CE8D39182B636FE8004709F8 /* RecordedSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D39172B636FE8004709F8 /* RecordedSound.swift */; };
+		CE8D391A2B63707B004709F8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D39192B63707B004709F8 /* CoreDataManager.swift */; };
 		CE9DA2512B5B8EBD003DC918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2502B5B8EBD003DC918 /* AppDelegate.swift */; };
 		CE9DA2532B5B8EBD003DC918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2522B5B8EBD003DC918 /* SceneDelegate.swift */; };
 		CE9DA2552B5B8EBD003DC918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2542B5B8EBD003DC918 /* ViewController.swift */; };
@@ -52,6 +54,8 @@
 		CE8D390B2B60A4B5004709F8 /* m5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m5.wav; sourceTree = "<group>"; };
 		CE8D390C2B60A4B5004709F8 /* m4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m4.wav; sourceTree = "<group>"; };
 		CE8D390D2B60A4B5004709F8 /* m2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m2.wav; sourceTree = "<group>"; };
+		CE8D39172B636FE8004709F8 /* RecordedSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedSound.swift; sourceTree = "<group>"; };
+		CE8D39192B63707B004709F8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		CE9DA24D2B5B8EBD003DC918 /* NyanNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyanNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9DA2502B5B8EBD003DC918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9DA2522B5B8EBD003DC918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				CE9DA25E2B5B8EBF003DC918 /* LaunchScreen.storyboard */,
 				CE9DA2612B5B8EBF003DC918 /* Info.plist */,
 				CE9DA2592B5B8EBD003DC918 /* NyanNote.xcdatamodeld */,
+				CE8D39172B636FE8004709F8 /* RecordedSound.swift */,
+				CE8D39192B63707B004709F8 /* CoreDataManager.swift */,
 			);
 			path = NyanNote;
 			sourceTree = "<group>";
@@ -220,6 +226,8 @@
 				CE9DA2682B5B8F04003DC918 /* PianoViewController.swift in Sources */,
 				CE9DA25B2B5B8EBD003DC918 /* NyanNote.xcdatamodeld in Sources */,
 				CE9DA2512B5B8EBD003DC918 /* AppDelegate.swift in Sources */,
+				CE8D39182B636FE8004709F8 /* RecordedSound.swift in Sources */,
+				CE8D391A2B63707B004709F8 /* CoreDataManager.swift in Sources */,
 				CE9DA2532B5B8EBD003DC918 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
