@@ -41,3 +41,4 @@ Pods
 *.xccheckout
 dsym_upload.sh
 generate_symbol_upload_token.sh
+UserInterfaceState.xcuserstate

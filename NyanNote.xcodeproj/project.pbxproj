@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0E11732B663B9D00E146EE /* Sounds+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E11712B663B9D00E146EE /* Sounds+CoreDataClass.swift */; };
+		CE0E11742B663B9D00E146EE /* Sounds+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E11722B663B9D00E146EE /* Sounds+CoreDataProperties.swift */; };
+		CE37A95E2B66141500DAEE83 /* RecordedSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37A95D2B66141500DAEE83 /* RecordedSoundsViewController.swift */; };
 		CE8D38DE2B5D1780004709F8 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D38DD2B5D1780004709F8 /* 1.wav */; };
 		CE8D38E02B5D17DC004709F8 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D38DF2B5D17DC004709F8 /* 2.wav */; };
 		CE8D38E22B5D17E1004709F8 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D38E12B5D17E1004709F8 /* 3.wav */; };
@@ -23,6 +26,7 @@
 		CE8D39142B60A4B5004709F8 /* m5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390B2B60A4B5004709F8 /* m5.wav */; };
 		CE8D39152B60A4B5004709F8 /* m4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390C2B60A4B5004709F8 /* m4.wav */; };
 		CE8D39162B60A4B5004709F8 /* m2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE8D390D2B60A4B5004709F8 /* m2.wav */; };
+		CE8D391A2B63707B004709F8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D39192B63707B004709F8 /* CoreDataManager.swift */; };
 		CE9DA2512B5B8EBD003DC918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2502B5B8EBD003DC918 /* AppDelegate.swift */; };
 		CE9DA2532B5B8EBD003DC918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2522B5B8EBD003DC918 /* SceneDelegate.swift */; };
 		CE9DA2552B5B8EBD003DC918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA2542B5B8EBD003DC918 /* ViewController.swift */; };
@@ -36,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0E11712B663B9D00E146EE /* Sounds+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sounds+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE0E11722B663B9D00E146EE /* Sounds+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sounds+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE37A95D2B66141500DAEE83 /* RecordedSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedSoundsViewController.swift; sourceTree = "<group>"; };
 		CE8D38DD2B5D1780004709F8 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
 		CE8D38DF2B5D17DC004709F8 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
 		CE8D38E12B5D17E1004709F8 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
@@ -52,6 +59,7 @@
 		CE8D390B2B60A4B5004709F8 /* m5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m5.wav; sourceTree = "<group>"; };
 		CE8D390C2B60A4B5004709F8 /* m4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m4.wav; sourceTree = "<group>"; };
 		CE8D390D2B60A4B5004709F8 /* m2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m2.wav; sourceTree = "<group>"; };
+		CE8D39192B63707B004709F8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		CE9DA24D2B5B8EBD003DC918 /* NyanNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyanNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9DA2502B5B8EBD003DC918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9DA2522B5B8EBD003DC918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +88,8 @@
 		CE9DA2442B5B8EBD003DC918 = {
 			isa = PBXGroup;
 			children = (
+				CE0E11712B663B9D00E146EE /* Sounds+CoreDataClass.swift */,
+				CE0E11722B663B9D00E146EE /* Sounds+CoreDataProperties.swift */,
 				CE9DA24F2B5B8EBD003DC918 /* NyanNote */,
 				CE9DA24E2B5B8EBD003DC918 /* Products */,
 			);
@@ -123,6 +133,8 @@
 				CE9DA25E2B5B8EBF003DC918 /* LaunchScreen.storyboard */,
 				CE9DA2612B5B8EBF003DC918 /* Info.plist */,
 				CE9DA2592B5B8EBD003DC918 /* NyanNote.xcdatamodeld */,
+				CE8D39192B63707B004709F8 /* CoreDataManager.swift */,
+				CE37A95D2B66141500DAEE83 /* RecordedSoundsViewController.swift */,
 			);
 			path = NyanNote;
 			sourceTree = "<group>";
@@ -217,9 +229,13 @@
 			files = (
 				CE9DA2552B5B8EBD003DC918 /* ViewController.swift in Sources */,
 				CE9DA2722B5BA014003DC918 /* Meowsic.swift in Sources */,
+				CE0E11732B663B9D00E146EE /* Sounds+CoreDataClass.swift in Sources */,
 				CE9DA2682B5B8F04003DC918 /* PianoViewController.swift in Sources */,
 				CE9DA25B2B5B8EBD003DC918 /* NyanNote.xcdatamodeld in Sources */,
 				CE9DA2512B5B8EBD003DC918 /* AppDelegate.swift in Sources */,
+				CE8D391A2B63707B004709F8 /* CoreDataManager.swift in Sources */,
+				CE0E11742B663B9D00E146EE /* Sounds+CoreDataProperties.swift in Sources */,
+				CE37A95E2B66141500DAEE83 /* RecordedSoundsViewController.swift in Sources */,
 				CE9DA2532B5B8EBD003DC918 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

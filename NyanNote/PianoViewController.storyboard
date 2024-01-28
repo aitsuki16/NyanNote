@@ -246,6 +246,46 @@
             </objects>
             <point key="canvasLocation" x="-54.225352112676056" y="3.8167938931297707"/>
         </scene>
+        <!--Recorded Sounds View Controller-->
+        <scene sceneID="aX7-DG-mVL">
+            <objects>
+                <viewController id="LlG-qs-POG" customClass="RecordedSoundsViewController" customModule="NyanNote" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pkN-7v-w0Z">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Wqd-Tn-Q9M">
+                                <rect key="frame" x="67" y="8" width="777" height="372"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xLm-IG-Z7p" customClass="RecordedSoundCell">
+                                        <rect key="frame" x="0.0" y="50" width="777" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xLm-IG-Z7p" id="BTB-W2-jLe">
+                                            <rect key="frame" x="0.0" y="0.0" width="726" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oic-v2-o02"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Wqd-Tn-Q9M" firstAttribute="leading" secondItem="oic-v2-o02" secondAttribute="leading" constant="8" id="JFQ-7k-OGf"/>
+                            <constraint firstItem="Wqd-Tn-Q9M" firstAttribute="top" secondItem="oic-v2-o02" secondAttribute="top" constant="8" id="ZV1-m2-jZO"/>
+                            <constraint firstAttribute="trailing" secondItem="Wqd-Tn-Q9M" secondAttribute="trailing" constant="8" id="bnl-7Z-9TK"/>
+                            <constraint firstItem="Wqd-Tn-Q9M" firstAttribute="bottom" secondItem="oic-v2-o02" secondAttribute="bottom" constant="8" id="vOT-qy-wSy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Wqd-Tn-Q9M" id="SsP-Sc-jZq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6xc-oC-huN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="703.52112676056345" y="3.8167938931297707"/>
+        </scene>
     </scenes>
     <resources>
         <image name="cat" catalog="system" width="128" height="102"/>
