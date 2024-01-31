@@ -153,6 +153,9 @@
                                         <buttonConfiguration key="configuration" style="gray" image="pawprint.circle" catalog="system" title="Rec">
                                             <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="recordButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="baq-4D-pbO"/>
+                                        </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="KTf-yH-NgC">
                                         <rect key="frame" x="327" y="93" width="182" height="160"/>
@@ -216,6 +219,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eJ-i0-bIc">
+                                        <rect key="frame" x="30" y="28" width="105" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Sound List">
+                                            <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="musicListButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="oEe-gQ-i9i"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.76859849690000004" green="0.64635096609999998" blue="0.69539615870000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -249,12 +264,12 @@
         <!--Recorded Sounds View Controller-->
         <scene sceneID="aX7-DG-mVL">
             <objects>
-                <viewController id="LlG-qs-POG" customClass="RecordedSoundsViewController" customModule="NyanNote" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RecordedSoundsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LlG-qs-POG" customClass="RecordedSoundsViewController" customModule="NyanNote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pkN-7v-w0Z">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Wqd-Tn-Q9M">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Wqd-Tn-Q9M" customClass="TableView" customModule="NyanNote" customModuleProvider="target">
                                 <rect key="frame" x="67" y="8" width="777" height="372"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -267,6 +282,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="LlG-qs-POG" id="OVj-fH-4rI"/>
+                                    <outlet property="delegate" destination="LlG-qs-POG" id="rg2-2z-bL9"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oic-v2-o02"/>
