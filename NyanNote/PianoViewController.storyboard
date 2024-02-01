@@ -219,9 +219,8 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eJ-i0-bIc">
-                                        <rect key="frame" x="30" y="28" width="105" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eJ-i0-bIc">
+                                        <rect key="frame" x="30.000000000000007" y="28.000000000000004" width="104.66666666666669" height="34.333333333333343"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Sound List">
@@ -235,9 +234,11 @@
                                 <color key="backgroundColor" red="0.76859849690000004" green="0.64635096609999998" blue="0.69539615870000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="cVc-7z-Vxn" secondAttribute="trailing" constant="46" id="2We-dg-I3y"/>
+                                    <constraint firstItem="0eJ-i0-bIc" firstAttribute="leading" secondItem="66F-4o-6y1" secondAttribute="leading" constant="30" id="7LA-EJ-PFp"/>
                                     <constraint firstItem="kJU-yz-Vvn" firstAttribute="bottom" secondItem="66F-4o-6y1" secondAttribute="bottomMargin" id="9Qx-5Y-ZaY"/>
                                     <constraint firstItem="kJU-yz-Vvn" firstAttribute="leading" secondItem="66F-4o-6y1" secondAttribute="leading" constant="46" id="A59-ne-CKm"/>
                                     <constraint firstItem="Idl-bC-ENf" firstAttribute="top" secondItem="kJU-yz-Vvn" secondAttribute="top" id="FP1-3v-pkS"/>
+                                    <constraint firstItem="0eJ-i0-bIc" firstAttribute="top" secondItem="66F-4o-6y1" secondAttribute="top" constant="28" id="IXb-jP-Koy"/>
                                     <constraint firstItem="KTf-yH-NgC" firstAttribute="top" secondItem="IvS-qQ-wY7" secondAttribute="top" id="LAv-S6-je3"/>
                                     <constraint firstItem="KTf-yH-NgC" firstAttribute="leading" secondItem="IvS-qQ-wY7" secondAttribute="trailing" constant="112" id="Ma3-GW-J14"/>
                                     <constraint firstItem="cVc-7z-Vxn" firstAttribute="top" secondItem="66F-4o-6y1" secondAttribute="top" constant="29" id="aMd-js-U3Y"/>
@@ -273,7 +274,7 @@
                                 <rect key="frame" x="67" y="8" width="777" height="372"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xLm-IG-Z7p" customClass="RecordedSoundCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecordedSoundCell" id="xLm-IG-Z7p" customClass="RecordedSoundCell" customModule="NyanNote" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="777" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xLm-IG-Z7p" id="BTB-W2-jLe">
