@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0802792B6CB1A4008CB426 /* RecordedSoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0802782B6CB1A4008CB426 /* RecordedSoundCell.swift */; };
 		CE0E11732B663B9D00E146EE /* Sounds+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E11712B663B9D00E146EE /* Sounds+CoreDataClass.swift */; };
 		CE0E11742B663B9D00E146EE /* Sounds+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E11722B663B9D00E146EE /* Sounds+CoreDataProperties.swift */; };
 		CE37A95E2B66141500DAEE83 /* RecordedSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37A95D2B66141500DAEE83 /* RecordedSoundsViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0802782B6CB1A4008CB426 /* RecordedSoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedSoundCell.swift; sourceTree = "<group>"; };
 		CE0E11712B663B9D00E146EE /* Sounds+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sounds+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CE0E11722B663B9D00E146EE /* Sounds+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sounds+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CE37A95D2B66141500DAEE83 /* RecordedSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedSoundsViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				CE0E11712B663B9D00E146EE /* Sounds+CoreDataClass.swift */,
+				CE0802782B6CB1A4008CB426 /* RecordedSoundCell.swift */,
 				CE0E11722B663B9D00E146EE /* Sounds+CoreDataProperties.swift */,
 				CE9DA24F2B5B8EBD003DC918 /* NyanNote */,
 				CE9DA24E2B5B8EBD003DC918 /* Products */,
@@ -237,6 +240,7 @@
 				CE0E11742B663B9D00E146EE /* Sounds+CoreDataProperties.swift in Sources */,
 				CE37A95E2B66141500DAEE83 /* RecordedSoundsViewController.swift in Sources */,
 				CE9DA2532B5B8EBD003DC918 /* SceneDelegate.swift in Sources */,
+				CE0802792B6CB1A4008CB426 /* RecordedSoundCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -371,6 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -391,11 +397,16 @@
 				DEVELOPMENT_TEAM = 6FL7354HD3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NyanNote/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = PianoViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,11 +434,16 @@
 				DEVELOPMENT_TEAM = 6FL7354HD3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NyanNote/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = PianoViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
