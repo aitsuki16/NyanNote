@@ -18,6 +18,7 @@ class PianoViewController: UIViewController {
     var isRecording = false
     var audioFileName: String {
         return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("recordedSound.wav").path
+
     }
     
     override func viewDidLoad() {
@@ -124,7 +125,7 @@ class PianoViewController: UIViewController {
 
         // sounds object
         let newRecordedSound = Sounds(context: coreDataManager.managedObjectContext)
-        newRecordedSound.title = "Recorded Sound"
+        newRecordedSound.title = "Sound"
         newRecordedSound.path = URL(fileURLWithPath: audioFileName)
 
         coreDataManager.saveContext()

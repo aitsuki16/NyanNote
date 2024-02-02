@@ -18,7 +18,7 @@ class RecordedSoundsViewController: UIViewController, UITableViewDataSource, UIT
         override func viewDidLoad() {
             super.viewDidLoad()
 
-           tableView.dataSource = self
+            tableView.dataSource = self
             tableView.delegate = self
             tableView.register(UITableViewCell.self, forCellReuseIdentifier: "RecordedSoundCell")
 
@@ -50,6 +50,8 @@ class RecordedSoundsViewController: UIViewController, UITableViewDataSource, UIT
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             let recordedSound = recordedSounds[indexPath.row]
             playRecordedSound(at: recordedSound.path)
+        print(recordedSound)
+
         }
     
     func playRecordedSound(at url: URL?) {
