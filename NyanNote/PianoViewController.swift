@@ -113,8 +113,7 @@ class PianoViewController: UIViewController {
             audioRecorder?.prepareToRecord()
             audioRecorder?.record()
             
-            // Play corresponding piano sound while recording
-            meowsicPlayer.playSound(fileName: "m1") // Adjust this based on your piano key
+            meowsicPlayer.playSound(fileName: "m1")
         } catch {
             print("Error starting recording: \(error.localizedDescription)")
         }
@@ -123,22 +122,19 @@ class PianoViewController: UIViewController {
     func saveRecordedSound() {
         let coreDataManager = CoreDataManager.shared
 
-        // Create a new Sounds object
+        // sounds object
         let newRecordedSound = Sounds(context: coreDataManager.managedObjectContext)
         newRecordedSound.title = "Recorded Sound"
         newRecordedSound.path = URL(fileURLWithPath: audioFileName)
 
-        // Save the context
         coreDataManager.saveContext()
 
-        // Fetch and reload the recorded sounds
+        // Fetch 
         fetchRecordedSounds()
     }
     
     func fetchRecordedSounds() {
-        // Fetch and reload the recorded sounds in your TableView
-        // This could involve updating your TableView data source
-        // and calling tableView.reloadData()
+     
     }
     
 }
