@@ -20,6 +20,33 @@ class PianoViewController: UIViewController {
         return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("recordedSound.wav").path
 
     }
+    @IBOutlet weak var soundlist: UIButton! {
+        didSet {
+            // Set corner radius
+            recordButton.layer.cornerRadius = 10
+            recordButton.layer.masksToBounds = true
+        
+        }
+    }
+    
+    @IBOutlet weak var recordButton: UIButton! {
+        didSet {
+            // Set corner radius
+            recordButton.layer.cornerRadius = 10
+            recordButton.layer.masksToBounds = true
+
+            recordButton.backgroundColor = UIColor(named: "Color1")
+
+            // Set highlighted background color
+            recordButton.setBackgroundImage(UIImage(), for: .highlighted)
+            recordButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+
+        }
+    }
+    @objc func buttonTapped() {
+        // Toggle between pink and blue
+        recordButton.backgroundColor = (recordButton.backgroundColor == UIColor(named: "Color1")) ? UIColor(named: "Color2") : UIColor(named: "Color1")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

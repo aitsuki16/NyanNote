@@ -257,6 +257,10 @@
                             <constraint firstItem="66F-4o-6y1" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="za1-gW-a3m"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="recordButton" destination="cVc-7z-Vxn" id="AxH-3b-s5b"/>
+                        <outlet property="soundlist" destination="0eJ-i0-bIc" id="Gal-QH-Zc2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
