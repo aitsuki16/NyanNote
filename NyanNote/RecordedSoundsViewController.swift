@@ -64,6 +64,8 @@ class RecordedSoundsViewController: UIViewController, UITableViewDataSource, UIT
             print("Error playing recorded sound: \"(error.localizedDescription")
         }
     }
-    
+    @IBAction func backButtonTapped(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
 
 }
