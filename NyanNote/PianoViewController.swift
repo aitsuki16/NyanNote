@@ -18,33 +18,30 @@ class PianoViewController: UIViewController {
     var isRecording = false
     var audioFileName: String {
         return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("recordedSound.wav").path
-
+        
     }
+    
     @IBOutlet weak var soundlist: UIButton! {
         didSet {
-            // Set corner radius
             recordButton.layer.cornerRadius = 10
             recordButton.layer.masksToBounds = true
-        
+            
         }
     }
     
     @IBOutlet weak var recordButton: UIButton! {
         didSet {
-            // Set corner radius
             recordButton.layer.cornerRadius = 10
             recordButton.layer.masksToBounds = true
-
+            
             recordButton.backgroundColor = UIColor(named: "Color1")
-
-            // Set highlighted background color
+            
             recordButton.setBackgroundImage(UIImage(), for: .highlighted)
             recordButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-
+            
         }
     }
     @objc func buttonTapped() {
-        // Toggle between pink and blue
         recordButton.backgroundColor = (recordButton.backgroundColor == UIColor(named: "Color1")) ? UIColor(named: "Color2") : UIColor(named: "Color1")
     }
     
@@ -128,8 +125,10 @@ class PianoViewController: UIViewController {
     
     @IBAction func musicListButtonTapped(_ sender: Any) {
         let storyboard = UIStoryboard(name: "PianoViewController", bundle: nil)
-            let recordedSoundsVC = storyboard.instantiateViewController(withIdentifier: "RecordedSoundsViewController") as! RecordedSoundsViewController
-            self.present(recordedSoundsVC, animated: true, completion: nil)
+        let recordedSoundsVC = storyboard.instantiateViewController(withIdentifier: "RecordedSoundsViewController") as! RecordedSoundsViewController
+        recordedSoundsVC.audioFileName = self.audioFileName  // Pass the audioFileName
+        self.present(recordedSoundsVC, animated: true, completion: nil)
+    
     }
 
     func startRecording() {

@@ -18,6 +18,8 @@ extension Sounds {
 
     @NSManaged public var title: String?
     @NSManaged public var path: URL?
+    @NSManaged public var creationDate: Date?
+
 
 }
 
