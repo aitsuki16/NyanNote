@@ -65,12 +65,26 @@ class RecordedSoundsViewController: UIViewController, UITableViewDataSource, UIT
 
         }
     
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            deleteRecordedSound(at: indexPath)
-
+//    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+//        if editingStyle == .delete {
+//            deleteRecordedSound(at: indexPath)
+//
+//        }
+//    }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { [weak self] (_, _, completionHandler) in
+            self?.deleteRecordedSound(at: indexPath)
+            completionHandler(true)
         }
+
+        deleteAction.backgroundColor = UIColor(named: "Color1")
+
+        let configuration = UISwipeActionsConfiguration(actions: [deleteAction])
+        configuration.performsFirstActionWithFullSwipe = false
+        return configuration
     }
+
     
     func playRecordedSound(at url: URL?) {
         guard let url = url else { return }
@@ -85,7 +99,7 @@ class RecordedSoundsViewController: UIViewController, UITableViewDataSource, UIT
     func saveRecordedSound() {
         let coreDataManager = CoreDataManager.shared
 
-        // Get the current date
+        // current date
         let currentDate = Date()
 
         // Create a new Sounds object
