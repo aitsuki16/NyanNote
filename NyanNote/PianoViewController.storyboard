@@ -257,6 +257,10 @@
                             <constraint firstItem="66F-4o-6y1" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="za1-gW-a3m"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="recordButton" destination="cVc-7z-Vxn" id="AxH-3b-s5b"/>
+                        <outlet property="soundlist" destination="0eJ-i0-bIc" id="Gal-QH-Zc2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -270,44 +274,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Wqd-Tn-Q9M" customClass="TableView" customModule="NyanNote" customModuleProvider="target">
-                                <rect key="frame" x="67" y="8" width="777" height="372"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecordedSoundCell" id="xLm-IG-Z7p" customClass="RecordedSoundCell" customModule="NyanNote" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="777" height="43.666667938232422"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xLm-IG-Z7p" id="BTB-W2-jLe">
-                                            <rect key="frame" x="0.0" y="0.0" width="726" height="43.666667938232422"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLx-o6-2pi" customClass="RecordedSoundCell" customModule="NyanNote" customModuleProvider="target">
-                                                    <rect key="frame" x="20" y="11" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xf5-KN-x4h">
+                                <rect key="frame" x="109" y="8" width="624" height="386.33333333333331"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLV-un-j8B">
+                                        <rect key="frame" x="0.0" y="0.0" width="624" height="34.333333333333336"/>
+                                        <color key="tintColor" red="0.76859849690000004" green="0.64635096609999998" blue="0.69539615870000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" image="cat.fill" catalog="system" title="Back"/>
                                         <connections>
-                                            <outlet property="soundName" destination="nLx-o6-2pi" id="EtP-qo-auw"/>
+                                            <action selector="backButtonTapped:" destination="LlG-qs-POG" eventType="touchUpInside" id="nbQ-4l-7eA"/>
                                         </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="LlG-qs-POG" id="OVj-fH-4rI"/>
-                                    <outlet property="delegate" destination="LlG-qs-POG" id="rg2-2z-bL9"/>
-                                </connections>
-                            </tableView>
+                                    </button>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Wqd-Tn-Q9M" customClass="TableView" customModule="NyanNote" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="34.333333333333343" width="624" height="352"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecordedSoundCell" id="xLm-IG-Z7p" customClass="RecordedSoundCell" customModule="NyanNote" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="50" width="624" height="43.666667938232422"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xLm-IG-Z7p" id="BTB-W2-jLe">
+                                                    <rect key="frame" x="0.0" y="0.0" width="624" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLx-o6-2pi" customClass="RecordedSoundCell" customModule="NyanNote" customModuleProvider="target">
+                                                            <rect key="frame" x="20" y="11" width="42" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="soundName" destination="nLx-o6-2pi" id="EtP-qo-auw"/>
+                                                </connections>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="LlG-qs-POG" id="OVj-fH-4rI"/>
+                                            <outlet property="delegate" destination="LlG-qs-POG" id="rg2-2z-bL9"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Wqd-Tn-Q9M" secondAttribute="bottom" id="SsA-y5-jjz"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oic-v2-o02"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Wqd-Tn-Q9M" firstAttribute="leading" secondItem="oic-v2-o02" secondAttribute="leading" constant="8" id="JFQ-7k-OGf"/>
-                            <constraint firstItem="Wqd-Tn-Q9M" firstAttribute="top" secondItem="oic-v2-o02" secondAttribute="top" constant="8" id="ZV1-m2-jZO"/>
-                            <constraint firstAttribute="trailing" secondItem="Wqd-Tn-Q9M" secondAttribute="trailing" constant="8" id="bnl-7Z-9TK"/>
-                            <constraint firstItem="Wqd-Tn-Q9M" firstAttribute="bottom" secondItem="oic-v2-o02" secondAttribute="bottom" constant="8" id="vOT-qy-wSy"/>
+                            <constraint firstItem="xf5-KN-x4h" firstAttribute="top" secondItem="oic-v2-o02" secondAttribute="top" constant="8" id="AMt-MI-ZRw"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="xf5-KN-x4h" secondAttribute="bottom" constant="-22.333333333333314" id="Yir-gv-wU4"/>
+                            <constraint firstItem="oic-v2-o02" firstAttribute="trailing" secondItem="xf5-KN-x4h" secondAttribute="trailing" constant="60" id="eWf-gR-1jQ"/>
+                            <constraint firstItem="xf5-KN-x4h" firstAttribute="leading" secondItem="oic-v2-o02" secondAttribute="leading" constant="50" id="yeh-Hg-VPm"/>
                         </constraints>
                     </view>
                     <connections>
