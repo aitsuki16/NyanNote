@@ -90,9 +90,6 @@
 		CE9DA2442B5B8EBD003DC918 = {
 			isa = PBXGroup;
 			children = (
-				CE0E11712B663B9D00E146EE /* Sounds+CoreDataClass.swift */,
-				CE0802782B6CB1A4008CB426 /* RecordedSoundCell.swift */,
-				CE0E11722B663B9D00E146EE /* Sounds+CoreDataProperties.swift */,
 				CE9DA24F2B5B8EBD003DC918 /* NyanNote */,
 				CE9DA24E2B5B8EBD003DC918 /* Products */,
 			);
@@ -109,37 +106,56 @@
 		CE9DA24F2B5B8EBD003DC918 /* NyanNote */ = {
 			isa = PBXGroup;
 			children = (
+				CEF3FF842C72DA26006A70F6 /* Model */,
+				CEF3FF852C72DA68006A70F6 /* Audio */,
 				CE9DA2692B5B8F1C003DC918 /* PianoViewController.storyboard */,
 				CE9DA2672B5B8F04003DC918 /* PianoViewController.swift */,
+				CE37A95D2B66141500DAEE83 /* RecordedSoundsViewController.swift */,
 				CE9DA2712B5BA014003DC918 /* Meowsic.swift */,
 				CE9DA2502B5B8EBD003DC918 /* AppDelegate.swift */,
 				CE9DA2522B5B8EBD003DC918 /* SceneDelegate.swift */,
-				CE9DA2542B5B8EBD003DC918 /* ViewController.swift */,
-				CE8D38DD2B5D1780004709F8 /* 1.wav */,
-				CE8D38DF2B5D17DC004709F8 /* 2.wav */,
-				CE8D38E12B5D17E1004709F8 /* 3.wav */,
-				CE8D38E32B5D17E6004709F8 /* 4.wav */,
-				CE8D38E52B5D17ED004709F8 /* 5.wav */,
-				CE8D38E72B5D17F1004709F8 /* 6.wav */,
-				CE8D38E92B5D17F7004709F8 /* 7.wav */,
-				CE8D39072B60A4B5004709F8 /* m1.wav */,
-				CE8D390D2B60A4B5004709F8 /* m2.wav */,
-				CE8D39062B60A4B5004709F8 /* m3.wav */,
-				CE8D390C2B60A4B5004709F8 /* m4.wav */,
-				CE8D390B2B60A4B5004709F8 /* m5.wav */,
-				CE8D39052B60A4B5004709F8 /* m6.wav */,
-				CE8D39092B60A4B5004709F8 /* m7.wav */,
-				CE8D390A2B60A4B5004709F8 /* m8.wav */,
-				CE8D39082B60A4B5004709F8 /* m9.wav */,
-				CE9DA2562B5B8EBD003DC918 /* Main.storyboard */,
 				CE9DA25C2B5B8EBF003DC918 /* Assets.xcassets */,
+				CE9DA2542B5B8EBD003DC918 /* ViewController.swift */,
+				CE9DA2562B5B8EBD003DC918 /* Main.storyboard */,
 				CE9DA25E2B5B8EBF003DC918 /* LaunchScreen.storyboard */,
 				CE9DA2612B5B8EBF003DC918 /* Info.plist */,
-				CE9DA2592B5B8EBD003DC918 /* NyanNote.xcdatamodeld */,
-				CE8D39192B63707B004709F8 /* CoreDataManager.swift */,
-				CE37A95D2B66141500DAEE83 /* RecordedSoundsViewController.swift */,
 			);
 			path = NyanNote;
+			sourceTree = "<group>";
+		};
+		CEF3FF842C72DA26006A70F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D39192B63707B004709F8 /* CoreDataManager.swift */,
+				CE9DA2592B5B8EBD003DC918 /* NyanNote.xcdatamodeld */,
+				CE0802782B6CB1A4008CB426 /* RecordedSoundCell.swift */,
+				CE0E11722B663B9D00E146EE /* Sounds+CoreDataProperties.swift */,
+				CE0E11712B663B9D00E146EE /* Sounds+CoreDataClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEF3FF852C72DA68006A70F6 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D38DF2B5D17DC004709F8 /* 2.wav */,
+				CE8D38DD2B5D1780004709F8 /* 1.wav */,
+				CE8D38E32B5D17E6004709F8 /* 4.wav */,
+				CE8D38E72B5D17F1004709F8 /* 6.wav */,
+				CE8D38E52B5D17ED004709F8 /* 5.wav */,
+				CE8D38E92B5D17F7004709F8 /* 7.wav */,
+				CE8D39072B60A4B5004709F8 /* m1.wav */,
+				CE8D39062B60A4B5004709F8 /* m3.wav */,
+				CE8D390D2B60A4B5004709F8 /* m2.wav */,
+				CE8D390B2B60A4B5004709F8 /* m5.wav */,
+				CE8D390A2B60A4B5004709F8 /* m8.wav */,
+				CE8D390C2B60A4B5004709F8 /* m4.wav */,
+				CE8D39092B60A4B5004709F8 /* m7.wav */,
+				CE8D39082B60A4B5004709F8 /* m9.wav */,
+				CE8D39052B60A4B5004709F8 /* m6.wav */,
+				CE8D38E12B5D17E1004709F8 /* 3.wav */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
